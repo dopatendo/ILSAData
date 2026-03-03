@@ -1,0 +1,20 @@
+Package: ILSAData
+Type: Package
+Title: Data of International Large-Scale Assessments (ILSA)
+Version: 0.1.0
+Authors@R: c(person(given = "Andrés",
+                    family = "Christiansen",
+                    role = c("aut","cre"),
+                    email = "andres.christiansen@iea-hamburg.de",
+                    comment = c(ORCID = "0000-0003-2692-7843")))
+Maintainer: Andrés Christiansen <andres.christiansen@iea-hamburg.de>
+Description: Data of several International Large-Scale Assessments (ILSA), including: TIMSS, PIRLS, ICCS, ICILS, and others.
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+RoxygenNote: 7.3.2
+Imports: ILSAstats
+Depends: R (>= 3.5.0)
+License: GPL (>= 3)
+
+
