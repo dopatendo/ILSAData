@@ -16,6 +16,7 @@
 #'
 #'
 get.ach <- function(study = NULL, year = NULL, specification = NULL){
+  library(haven)
 
   dirach <- system.file("extdata/achievement", package = "ILSAData")
 
